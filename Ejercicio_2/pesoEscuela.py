@@ -39,7 +39,7 @@ try:
         print("\nLa cantidad de estudiantes con peso menor a 40 kg es: {}".format(peso_1))
         print("La cantidad de estudiantes con peso entre 40 a 50 kg es: {}".format(peso_2))
         print("La cantidad de estudiantes con peso mayor a 50 y menor a 60 es: {}".format(peso_3))
-        print("La cantidad de estudiantes con peso mayor e igua a 60 es: {}\n".format(peso_4))
+        print("La cantidad de estudiantes con peso mayor e igual a 60 es: {}\n".format(peso_4))
 
 except:
     print("\nError en los datos\n")

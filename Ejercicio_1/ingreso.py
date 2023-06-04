@@ -29,3 +29,10 @@ if dato.isnumeric():
 else:
     print ("La variable es una cadena")
 '''
+
+'''
+if type(dato) == str
+    print ("\nEl dato es un caracter\n")
+else
+    print ("\nEl dato es un numero real\n")
+'''
