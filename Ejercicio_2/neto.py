@@ -29,7 +29,7 @@ try:
             nominaSemana = pago*hora
 
         elif hora > 35:
-            horaExtra = (hora-35)*1.5 #Necesito conocer las horas extra trabajadas
+            horaExtra = (hora-35)*1.5 #Conocer las horas extra trabajadas
             pagoExtra = horaExtra*pago #Pago por esas horas extra trabajadas
             nominaSemana = pago*hora + pagoExtra
 
