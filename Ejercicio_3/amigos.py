@@ -40,11 +40,8 @@ except:
     print("\nHa ocurrido un error")
 print("")
 
-
-
 '''
 # Ni se como lo hice
-No se como funciona, pero funciona
 print(lista)
     for x in lista:
         print(x)
