@@ -10,7 +10,7 @@ viernes: 1 - 2
 
 pico = input("\nIngrese su placa (Ejm: abc123): ")
 numero = ['3','4','5','6','7','8','9','0','1','2']
-dias = ["viernes","lunes","martes","miercoles","jueves"]
+dias = ["lunes","martes","miercoles","jueves","viernes"]
 
 if len(pico) == 6:
 	if pico[5] in numero:
