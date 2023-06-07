@@ -1,3 +1,6 @@
+'''
+Calcular el promedio de 3 números ingresados por teclado y mostrar su resultado
+'''
 
 try:
     x = float(input("\nIngrese el primer numero: "))

@@ -1,3 +1,7 @@
+'''
+Utiliza la forma matemática para calcular los numeros pares e impares imprimir la
+secuencia de los  200 primeros numeros  pares partiendo desde 0
+'''
 
 x = 0
 

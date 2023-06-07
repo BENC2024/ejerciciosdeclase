@@ -1,4 +1,11 @@
 #Binario, octal, hexadecimal
+
+'''
+Realiza un  programa que  convierta un  numero  decimal
+a binario, octal y hexadecimal, al final  deberá mostrar 
+cual es su resultado
+'''
+
 try:
     numero = int(input("\nIngrese un numero entero: "))
     binario = ""

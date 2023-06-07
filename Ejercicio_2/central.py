@@ -1,5 +1,9 @@
 #Central
 
+'''
+Elabora un programa que Dados tres números deduzca cuál es el central
+'''
+
 try:
 	a = float(input("\nIngrese primer numero: "))
 	b = float(input("Ingrese segundo numero: "))

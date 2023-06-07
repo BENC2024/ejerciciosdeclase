@@ -1,4 +1,9 @@
 
+'''
+Elabora un programa que le pida al usuario una base y un
+exponente, posteriormente mostrar el  resultado  al usuario
+'''
+
 try:
     base = float(input("\ningrese la base: "))
     exponente = float(input("ingrese el exponente: "))

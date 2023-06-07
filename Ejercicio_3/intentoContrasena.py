@@ -1,3 +1,7 @@
+'''
+Modificar el programa anterior para que solamente permita una cantidad fija de
+intentos.
+'''
 
 nombre = input("\nIngrese su nombre: ")
 contrasena = input("Ingrese su contrasena: ")

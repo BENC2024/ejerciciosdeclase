@@ -1,3 +1,6 @@
+'''
+Crea un programa  que diga si un numero ingresado por teclado es par o impar
+'''
 
 try:
     x = int(input("\nIngrese un numero: "))

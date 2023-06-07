@@ -1,3 +1,8 @@
+'''
+Elabore una minicalculadora que al ingresar 2 numeros 
+me calcule el resultado de la suma, resta, producto, division,
+exponenciacion, modulo de la division
+'''
 
 try:
     a = float(input("\nIngrese el primer numero: "))

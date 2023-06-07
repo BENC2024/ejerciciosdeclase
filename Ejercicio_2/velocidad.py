@@ -1,5 +1,11 @@
 #Velocidad
 
+'''
+Construye un programa que Si distancia es mayor que 20 y
+menos que 35, leer un valor para tiempo y calcular la 
+Velocidad si   Distancia = Velocidad * Tiempo
+'''
+
 try:
 	distancia = float(input("\nIngrese la distancia en mts(entre 20 y 35): "))
 

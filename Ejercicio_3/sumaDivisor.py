@@ -1,3 +1,7 @@
+'''
+Escribir una función que devuelva la suma de todos los divisores de un número n, sin
+incluirlo.
+'''
 
 try:
     def definir_suma(num):

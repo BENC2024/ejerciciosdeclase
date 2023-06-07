@@ -1,5 +1,5 @@
 
-nombre = "brahian narvaez"
+nombre = "bacn"
 
 print(type(nombre))
 

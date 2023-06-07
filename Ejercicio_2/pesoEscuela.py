@@ -1,14 +1,15 @@
 '''
-Analisis
-
-Se necesita conocer los estudiantes que tienen diferentes pesos y clasificarlos
-por lo tanto necesito como datos de entrada
-numero de estudiantes y sus pesos para clasificarlos
+Se desea realizar una estadística de los pesos de los alumnos de un colegio de
+acuerdo a la siguiente tabla:
+Alumnos de menos de 40 kg.
+Alumnos entre 40 y 50 kg.
+Alumnos de más de 50 kg y menos de 60 kg.
+Alumnos de más o igual a 60 kg.
 
 '''
 
 try:
-    estud = int(input("\nIngrese el numero de estudiantes: "))
+    estud = int(input("\nIngrese el numero de estudiantes: ")) #Conover los estudiantes del colegio
     dato = 0
     peso_1 = 0
     peso_2 = 0

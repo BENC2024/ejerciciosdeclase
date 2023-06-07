@@ -1,3 +1,8 @@
+'''
+Realiza un programa que  me calcule el  área  del  circulo, 
+la  cual el usuario ingresa el  valor del  radio
+'''
+
 import math #Se utiliza para importar una libreria 
 
 try:

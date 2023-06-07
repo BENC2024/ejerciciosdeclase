@@ -1,3 +1,8 @@
+'''
+Usando la función anterior, escribir una función que imprima los primeros m números
+tales que la suma de sus divisores sea igual a sí mismo (es decir los primeros m
+números perfectos).
+'''
 
 def definir_perfectos(num):
     suma = 0

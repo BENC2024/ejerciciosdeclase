@@ -1,4 +1,8 @@
 
+'''
+Suma de 3 numeros ingresados por  teclado  y calcular el promedio
+'''
+
 try:
     a = float(input("\nIngrese el primer numero: "))
     b = float(input("Ingrese el segundo numero: "))

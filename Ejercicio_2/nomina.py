@@ -1,12 +1,13 @@
 '''
-Analisis:
 Se desea obtener la nómina semanal —salario neto— de los empleados de una
 empresa cuyo trabajo se paga por horas y del modo siguiente:
+
 las horas inferiores o iguales a 35 horas (normales) se pagan a una tarifa
 determinada que se debe introducir por teclado al igual que el número de horas y el
 nombre del trabajador,
 las horas superiores a 35 se pagarán como extras a un promedio de 1,5 horas
 normales,
+
 los impuestos a deducir a los trabajadores varían en función de su sueldo mensual:
 sueldo <= 2.000, libre de impuestos,
 las siguientes 220 euros al 20 por 100,

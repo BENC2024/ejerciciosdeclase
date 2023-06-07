@@ -1,4 +1,7 @@
-
+'''
+Escribir una aplicación que reciba un número natural e imprima todos los números
+primos que hay hasta ese número.
+'''
 try:
     num = int(input("\nIngrese un numero: "))
     contDiv = 1 #Contador de divisiones para saber si es o no numero primo

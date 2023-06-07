@@ -1,3 +1,8 @@
+'''
+Modificar el programa anterior para que después de cada intento agregue una pausa
+cada vez mayor, utilizando la función sleep del módulo time.
+'''
+
 import time
 
 nombre = input("\nIngrese su nombre: ")

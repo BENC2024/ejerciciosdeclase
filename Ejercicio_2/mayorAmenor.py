@@ -1,3 +1,8 @@
+'''
+Elabora un programa que lea 3 números por  teclado y me los muestre  organizado de
+mayor a menor por ejemplo si ingreso 53, 10 Y 24 deberá mostrar, "los números
+ingresados  son  53, 10 Y 24 y organizados de forma descendente son  53, 24, 10
+'''
 
 try:
     x = float(input("\nIngrese primer numero: "))

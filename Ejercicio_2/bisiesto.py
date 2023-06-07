@@ -1,7 +1,7 @@
 #Bisiesto
 '''
-Se da año nuevo todos aquello que sean multiplos de 4
-Se excluyen los que son multiplos de 100 y 400
+Utiliza una Estructura selectiva para averiguar si un
+año leído de teclado es o no bisiesto
 '''
 
 try:

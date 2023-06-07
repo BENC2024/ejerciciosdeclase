@@ -1,3 +1,7 @@
+'''
+Cree un algoritmo  que  permita intercambiar el valor 
+de una variable a=3, b=2 deberá quedar a=2 y b=3
+'''
 
 try:
     a = int(input("\nIngrese primer numero: "))

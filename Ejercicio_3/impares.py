@@ -1,3 +1,7 @@
+'''
+Realiza un programa que muestre los numeros impares desde un numero
+predeterminado hasta otro numero predeterminado
+'''
 
 try:
     a = int(input("\nIngrese el primer numero: "))

@@ -1,4 +1,7 @@
 #pico y placa
+'''
+Realizar  un programa para saber que día tiene pico y placa su vehículo
+'''
 
 '''
 lunes: 3 - 4

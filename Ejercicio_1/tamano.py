@@ -1,3 +1,10 @@
+'''
+Crea un programa que lea un valor  y  muestre en pantalla
+la longitud de ese valor por ejemplo si el usuario ingresa
+"Diego Fernando"  deberá decir  que ha ingresado  14
+caracteres
+'''
+
 dato = input("\nIngrese el dato: ")
 
 longi = 0 #Se utiliza para saber el tamaño de un caracter

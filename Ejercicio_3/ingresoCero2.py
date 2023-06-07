@@ -1,3 +1,7 @@
+'''
+Al programa anterior debe modificarlo y agregarle que al final  muestre el numero
+acumulado y la cantidad de numeros ingresados por el usuario
+'''
 
 try:
     x = 1

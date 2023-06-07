@@ -1,3 +1,8 @@
+'''
+Elabora un programa que me muestre en pantalla de forma ordenada de menor a
+mayor dos números ingresados por teclado, por ejemplo si ingreso 5 Y 4 deberá
+mostrar, "los números ingresados  son  5 y 4 y organizados  son  4, 5"
+'''
 
 try:
     x = float(input("\nIngrese primer numero: "))

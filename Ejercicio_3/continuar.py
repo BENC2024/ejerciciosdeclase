@@ -1,3 +1,8 @@
+'''
+Realiza un programa que imprima una secuencia de numeros de uno en uno desde el
+que el usuario desee, el programa debe pedirle al usuario después de que imprima un
+numero en pantalla le pregunte si desea continuar o no mostrando en pantalla
+'''
 
 try:
     i = "si"

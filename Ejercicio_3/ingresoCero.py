@@ -1,4 +1,9 @@
+'''
+Realice un programa que acumule todo numero  ingresado  por  el  usuario, el
+programa  deberá  finalizar cuando el  usuario ingrese el numero 0,  el  programa  al
+final  debe mostrar cual  es el numero acumulado
 
+'''
 try:
     x = 1
     suma = 0

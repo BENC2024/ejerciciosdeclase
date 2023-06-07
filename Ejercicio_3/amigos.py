@@ -1,3 +1,11 @@
+'''
+Usando la primera función, escribir una función que imprima las primeras m parejas
+de números (a,b), tales que la suma de los divisores de a es igual a b y la suma de los
+divisores de b es igual a a (es decir las primeras m parejas de números amigos).
+Proponer optimizaciones a las funciones anteriores para disminuir el tiempo de
+ejecución.
+'''
+
 
 def definir_amigos(num):
     contAmigo = 1

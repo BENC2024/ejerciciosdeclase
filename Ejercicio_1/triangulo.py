@@ -1,3 +1,6 @@
+'''
+Crea un programa que  permita calcular el área del triangulo
+'''
 
 try:
     base = float(input("\nIngrese la base(m): "))

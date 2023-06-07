@@ -1,3 +1,6 @@
+'''
+Crea un Algoritmo que nos calcule el área de un triángulo conociendo sus lados
+'''
 
 #Hallar el area del triangulo segun sus lados
 

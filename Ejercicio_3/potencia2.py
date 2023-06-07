@@ -1,7 +1,14 @@
+'''
+Escribir una función 'es_potencia_de_dos' que reciba como parámetro un número
+natural, y devuelva True si el número es una potencia de 2, y False en caso contrario.
+también incluir una función que, dados dos números naturales pasados como
+parámetros, devuelva la suma de todas las potencias de 2 que hay en el rango
+formado por esos números (0 si no hay ninguna potencia de 2 entre los dos). Utilizar
+la función es_potencia_de_dos, descrita en el punto anterior.Números perfectos y
+números amigo
+'''
 
 try:
-    numero = int(input("\nIngrese un numero: "))
-
     def es_potencia_de_dos(num):
         exp = 0
         if num == 1:
@@ -13,6 +20,8 @@ try:
                     return True
                 elif 2**exp > num:
                     return False
+    
+    numero = int(input("\nIngrese un numero: "))
 
     if numero > 0:
         if es_potencia_de_dos(numero) == True:

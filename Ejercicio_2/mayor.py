@@ -1,3 +1,7 @@
+'''
+Elabora  un programa que  me muestre en pantalla cual de los dos números
+ingresados por  teclado es mayor
+'''
 
 try:
     x = float(input("\nIngrese el primer numero: "))

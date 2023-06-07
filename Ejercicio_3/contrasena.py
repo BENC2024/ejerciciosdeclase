@@ -1,3 +1,8 @@
+'''
+Escribir un programa que contenga una contraseña inventada, que le pregunte al
+usuario la contraseña, y no le permita continuar hasta que la haya ingresado
+correctamente
+'''
 
 nombre = input("\nIngrese su nombre: ")
 contrasena = input("Ingrese su contrasena: ")

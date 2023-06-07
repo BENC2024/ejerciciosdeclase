@@ -1,3 +1,8 @@
+'''
+El  usuario ingresa por  teclado  una  oración por  ejemplo 'Estaba sentada la  pájara
+pinta' el  programa debe  permitir contar cuantas vocales  hay en esa frase a = 9, e =
+2, i = 1, o = 0, u = 0
+'''
 
 texto = input("\nIngrese un texto: \n")
 vocales = [0,0,0,0,0] #[a,e,i,o,u]
