@@ -15,12 +15,12 @@ dias = ["lunes","martes","miercoles","jueves","viernes"]
 if len(pico) == 6:
 	if pico[5] in numero:
 		digito = pico[5]
-		print(f"\nTu vehiculo es un carro")
+		print("\nTu vehiculo es un carro")
 	else:
 		digito = pico[4]
-		print(f"\nTu vehiculo es una moto")
+		print("\nTu vehiculo es una moto")
 	
-	print(f"El vehiculo tiene pico y placa el",end=(" "))
+	print("El vehiculo tiene pico y placa el",end=(" "))
 	if digito == numero[0] or digito == numero[1]:   #puedo usar ('3' or '4') esto para el viernes
 		print(f"{dias[0]}\n")
 	elif digito == numero[2] or digito == numero[3]: # ('5' or '6') esto para el lunes
