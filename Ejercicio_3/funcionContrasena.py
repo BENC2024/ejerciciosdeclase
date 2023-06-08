@@ -2,8 +2,8 @@
 Modificar el programa anterior para que sea una función que devuelva si el usuario
 ingresó o no la contraseña correctamente, mediante un valor booleano (True o False).
 '''
-nombre = input("\nIngrese su nombre: ")
-contrasena = input("Ingrese su contrasena: ")
+
+contrasena = input("\nIngrese su nueva contrasena: ")
 ingreso = ""
 
 def cuenta(contra):
@@ -15,7 +15,7 @@ def cuenta(contra):
 while contrasena != ingreso:
     ingreso = input("\nIngrese su contrasena: ")
     if cuenta(ingreso) == True:
-        print("\n¡Contrasena correcta {}!\n".format(nombre))
+        print("\n¡Contrasena correcta, bienvenido!\n")
         break
     else:
         print("\n¡Contrasena incorrecta!")

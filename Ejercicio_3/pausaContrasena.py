@@ -5,8 +5,7 @@ cada vez mayor, utilizando la función sleep del módulo time.
 
 import time
 
-nombre = input("\nIngrese su nombre: ")
-contrasena = input("Ingrese su contrasena: ")
+contrasena = input("\nIngrese su nueva contrasena: ")
 ingreso = ""
 intento = 5
 seg = 1
@@ -16,7 +15,7 @@ while contrasena != ingreso:
     ingreso = input("\nIngrese su contrasena: ")
     seg += 1
     if contrasena == ingreso:
-        print("\n¡Contrasena correcta {}!\n".format(nombre))
+        print("\n¡Contrasena correcta, bienvenido!\n")
     else:
         print("\n¡Contrasena incorrecta!")
         if intento <= 5 and intento > 1:

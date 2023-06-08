@@ -3,8 +3,7 @@ Modificar el programa anterior para que solamente permita una cantidad fija de
 intentos.
 '''
 
-nombre = input("\nIngrese su nombre: ")
-contrasena = input("Ingrese su contrasena: ")
+contrasena = input("\nIngrese su nueva contrasena: ")
 ingreso = ""
 intento = 5  #Suponiendo que tiene cinco intentos
 
@@ -12,8 +11,7 @@ while contrasena != ingreso:
     print("\n--------------------------------")
     ingreso = input("\nIngrese su contrasena: ")
     if contrasena == ingreso:
-        print("\n¡Contrasena correcta {}!\n".format(nombre))
-        break
+        print("\n¡Contrasena correcta, bienvenido!\n")
     else:
         print("\n¡Contrasena incorrecta!")
         if intento <= 5 and intento > 1:
