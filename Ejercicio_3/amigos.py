@@ -26,7 +26,7 @@ def definir_amigos(num):
 
             if a == sumaB and a != b: #Si se da el caso de que sea perfecto
                 if a in pares:
-                    None
+                    pass #None -- no haga nada
                 else:
                     print("({},{})".format(a,b)) #(f"(a)(b)")
                     pares.append(a), pares.append(b)
@@ -39,9 +39,9 @@ def definir_amigos(num):
                 a += 1
 
 try:
-    numero = int(input("\nCuantos pares de numeros amigos desea: "))
+    numero = int(input("\nCuantas parejas de numeros amigos desea: "))
 
-    print("\nLos  numeros amigos que existen son: \n")
+    print("\nLas parejas de numeros amigos son: \n")
     definir_amigos(numero)
     ####
 except:

@@ -8,27 +8,52 @@ la función es_potencia_de_dos, descrita en el punto anterior.Números perfectos
 números amigo
 '''
 
-try:
-    def es_potencia_de_dos(num):
-        exp = 0
-        if num == 1:
-            return True
+def es_potencia_de_dos(num):
+    exp = 0
+    while (2**exp) <= num:
+        if (2**exp) == num:
+            potencia = True
         else:
-            while 2**exp < num:
-                exp = exp+1
-                if 2**exp == num:
-                    return True
-                elif 2**exp > num:
-                    return False
+            potencia = False
+        exp = exp + 1
+    return potencia
     
-    numero = int(input("\nIngrese un numero: "))
+def suma_potencia(num1,num2):
+    suma = 0
+    msj = ""
+    for i in range(num1,num2+1,1):
+        if es_potencia_de_dos(i) == True:  #Utilizando la funcion es_potencia_2
+            msj = msj + str(i) + "+"
+            suma = suma + i
+    msj = msj.removesuffix("+") #Me remueve el ultimo caracter de final, sufijo
+    msj = msj + " = " + str(suma)
+    return msj
+
+try:
+     
+    numero = int(input("\nIngrese el numero: "))
 
     if numero > 0:
         if es_potencia_de_dos(numero) == True:
-            print("\nEl numero {} es potencia de 2\n".format(numero))
+            print("\nEl numero {} es potencia de 2".format(numero))
         elif es_potencia_de_dos(numero) == False:
-            print("\nEl numero {} no es potencia de 2\n".format(numero))
+            print("\nEl numero {} no es potencia de 2".format(numero))
     else:
-        print("\nSolo se admiten numeros mayores a cero\n")
+        print("\nSolo se permiten numeros naturales (mayores a cero)")
+    
+    print("\nSuma de potencias de 2 (dos numeros mayores que cero):")
+    num1 = int(input("Ingrese el primer numero: "))
+    num2 = int(input("Ingrese el segundo numero: "))
+    
+    if num1 > 0 and num2 > 0:
+        print(f"\nLa suma de las potencias de 2 entre {num1} y {num2} es:")
+        if num1 <= num2:
+            print(suma_potencia(num1,num2))
+        elif num1 > num2:
+            print(suma_potencia(num2,num1))
+        print("")
+    else:
+        print("\nSolo se permiten numeros naturales (mayores a cero)\n")
+
 except:
-    print("\nSolo se admiten numero y no letras\n")
+    print("\nHa ocurrido un error en la ejecucion\n")
