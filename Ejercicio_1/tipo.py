@@ -3,12 +3,15 @@ Elabore un  programa me muestre en  pantalla el  tipo de  dato
 que el usuario ha ingresado, por  ejemplo si  ingresa Juan el
 deberá decir que es texto, en caso  que ingrese 2018 deberá decir que es  entero
 '''
-
+dato = ""
 try:
     dato = float(input("\nIngrese su dato: "))
-    print ("\nEl dato es un numero real\n")
+    print("\nEl dato es un numero entero")
+    print(type(dato))
 except:
-    print ("\nEl dato es un caracter\n")
+    print(f"\nEl dato es un texto")
+    print(type(dato))
+print("")
 
 
 '''
