@@ -7,14 +7,18 @@ cual es su resultado
 '''
 
 try:
-    numero = int(input("\nIngrese un numero entero: "))
+    numero = int(input("\nIngrese un numero a convertir: "))
+    num = numero
     binario = ""
     octal = ""
     hexadecimal = ""
 
     if numero == 0:
-        print("\nEl numero en binario es 0")
-    else:
+        print("\nEl numero {} en binario es 0".format(num))
+        print("En octal es 0")
+        print("En hexadecimal es 0")
+
+    elif numero > 0:
         aux = numero #Para binario
         while aux >= 1:
             binario = str(aux%2) + binario #Calculo el modulo y lo convierte en una cadena
@@ -48,10 +52,11 @@ try:
             elif aux % 16 == 15:
                 hexadecimal = 'F' + hexadecimal
                 aux = int(aux/16)
-
-    print("\nEl numero en binario es {}".format(binario))
-    print("El numero en octal es {}".format(octal))
-    print("El numero en hexadecimal es {}".format(hexadecimal))
+        print("\nEl numero {} en binario es {}".format(num,binario))
+        print("En octal es {}".format(octal))
+        print("En hexadecimal es {}".format(hexadecimal))
+    else:
+        print("\nNo se admiten numeros negativos")
 except:
     print("\nEl dato ingresado no es valido")
 print("")

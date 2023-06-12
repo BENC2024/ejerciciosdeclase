@@ -5,7 +5,7 @@ cual es su equivalencia
 '''
 
 try:
-    binario = int(input("\nIngrese numero binario: "))
+    binario = int(input("\nIngrese numero binario a convertir: "))
     b = binario
     i = 0
     decimal = 0

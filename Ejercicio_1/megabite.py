@@ -12,9 +12,12 @@ resultado
 try:
     mega = float(input("\ningrese los datos en megabyte: "))
 
-    print("\nEl resultado en bits es: {}".format(int(mega*1024*1024*8)))
-    print("El resultado en bytes es: {}".format(int(mega*1024*1024)))
-    print("El resultado en kilobytes es: {}".format(int(mega*1024)))
-    print("El resultado en gigabytes es: {}\n".format(mega/1024))
+    if mega >= 0:
+        print("\nEl resultado en bits es: {}".format(mega*1024*1024*8))
+        print("El resultado en bytes es: {}".format(mega*1024*1024))
+        print("El resultado en kilobytes es: {}".format(mega*1024))
+        print("El resultado en gigabytes es: {}\n".format(mega/1024))
+    else:
+        print("\nNo se admiten numeros menores a cero\n")
 except:
     print("\nEl dato ingresado es erroneo\n")

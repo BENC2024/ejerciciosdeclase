@@ -19,7 +19,7 @@ print("\nEl dato dado: {}, cuenta con {} caracteres\n".format(dato,longi))
 
 #NONE : es un valor nulo, que no guarda nada
 
-amb = None
+#amb = None
 
 '''if amb:
     print("muestra algo")
