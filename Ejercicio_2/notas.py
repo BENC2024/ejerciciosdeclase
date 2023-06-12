@@ -12,19 +12,24 @@ Menor de 69        F
 '''
 
 try:
-    nota = float(input("\nIngrese valor numerico: "))
-    letra = "" 
-    if nota < 60:
-        letra = 'F'
-    elif nota < 70:
-        letra = 'D'
-    elif nota < 80:
-        letra = 'C'
-    elif nota < 90:
-        letra = 'B'
+    nota = float(input("\nIngrese su calificacion: "))
+    letra = ""
+    if nota >= 0:
+        if nota > 100:
+            print("\nNo se acepta calificacion mayor a 100\n")
+        else:
+            if nota < 60:
+                letra = 'F'
+            elif nota < 70:
+                letra = 'D'
+            elif nota < 80:
+                letra = 'C'
+            elif nota < 90:
+                letra = 'B'
+            elif nota <= 100:
+                letra = 'A'
+            print("\nSu calificacion es: "+letra+"\n")
     else:
-        letra = 'A'
-
-    print("\nSu calificacion es: "+letra+"\n")
+        print("\nNo se admiten numeros negativos\n")
 except:
-    print("\nError en los datos\n")
+    print("\nError en ingresando datos\n")
