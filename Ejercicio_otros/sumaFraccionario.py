@@ -88,15 +88,28 @@ try:
         simpl = 2
         print("\nSe busca si se puede simplificar")
         time.sleep(3)
-        while simpl <= m and simpl <= n:
-            if m%simpl == 0 and n%simpl == 0:
-                m = int(m/simpl)
-                n = int(n/simpl)
-                print(str(m)+"/"+str(n))
+        s,t = m,n
+        if s < 0:
+            s = -m
+
+        while simpl <= s and simpl <= t:
+            if s%simpl == 0 and t%simpl == 0:
+                s = int(s/simpl)
+                t = int(t/simpl)
+                if m < 0:
+                    print("-"+str(s)+"/"+str(t))
+                else:
+                    print(str(s)+"/"+str(t))
                 time.sleep(3)
             else:
                 simpl += 1
         
+        if m < 0:
+            m = -s
+        else:
+            m = s
+        n = t
+
         if n == 1:
             print(f"\nEl resultado final es igual a: {m}\n")
         else:
