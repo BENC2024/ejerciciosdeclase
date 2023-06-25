@@ -7,7 +7,27 @@ try:
     a = int(input("\nIngrese el primer numero: "))
     b = int(input("Ingrese el segundo numero: "))
     print("")
+    if a > 0 and b > 0:
+        if a > b:
+            for i in range(b,a+1):
+                if i%2 == 0:
+                    print(i)
+        elif a < b:
+            for j in range(a,b+1):
+                if j%2 == 0:
+                    print(j)
+        else:
+            print("\nAmbos numeros son iguales")
+        print("")
 
+    else:
+        print("\nSolo se permiten numeros positivos\n")
+except:
+    print("\nSe ha ingresado un dato no valido\n")
+
+
+'''
+complicandome solo jsjs
     if a > 0 and b > 0:
         if a < b:
             if a%2 == 0:
@@ -47,4 +67,5 @@ try:
         print("\nSolo numeros enteros positivos\n")
 except:
     print("\nSe ha ingresado un dato no valido\n")
+'''
 

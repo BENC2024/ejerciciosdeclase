@@ -9,14 +9,13 @@ Alumnos de más o igual a 60 kg.
 '''
 
 try:
-    estud = int(input("\nIngrese el numero de estudiantes: ")) #Conover los estudiantes del colegio
+    estud = int(input("\nIngrese el numero de estudiantes: ")) #Conocer los estudiantes del colegio
     dato = 0
     peso_1 = 0
     peso_2 = 0
     peso_3 = 0
     peso_4 = 0
     print("")
-    i=1
 
     for i in range(1,estud+1,1):
         dato = float(input("Ingrese peso(kg) del estudiante {}: ".format(i)))
@@ -41,6 +40,8 @@ try:
         print("La cantidad de estudiantes con peso entre 40 a 50 kg es: {}".format(peso_2))
         print("La cantidad de estudiantes con peso mayor a 50 y menor a 60 es: {}".format(peso_3))
         print("La cantidad de estudiantes con peso mayor e igual a 60 es: {}\n".format(peso_4))
+    else:
+        print("\nNo hay datos para mostrar\n")
 
 except:
     print("\nError en los datos\n")

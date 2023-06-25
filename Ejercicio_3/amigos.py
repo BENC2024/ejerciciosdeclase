@@ -49,7 +49,7 @@ except:
 print("")
 
 '''
-# Ni se como lo hice
+# Ni como lo hice
 print(lista)
     for x in lista:
         print(x)

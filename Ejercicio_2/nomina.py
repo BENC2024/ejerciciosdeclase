@@ -34,7 +34,7 @@ try:
             pagoExtra = horaExtra*pago #Pago por esas horas extra trabajadas
             nominaSemana = pago*hora + pagoExtra
 
-        nominaMensual = nominaSemana*4
+        nominaMensual = nominaSemana*4 #Asumiendo que trabaja las misma hora cada semana
 
         if nominaMensual <= 2000:
             impuesto = 0

@@ -11,12 +11,13 @@ try:
     print("")
     if a < b:
         for i in range(a,b+1,1):
-            print(i)
+            print(i, end=", ")
+        print("\n")
     elif a > b:
         for i in range(a,b-1,-1):
-            print(i)
+            print(i, end=", ")
+        print("\n")
     else:
-        print("\nAmbos numeros son iguales")
-    print("")
+        print(f"\n{a}, Ambos numeros son iguales\n")
 except:
     print("\nSe ha ingresado un dato no valido\n")
