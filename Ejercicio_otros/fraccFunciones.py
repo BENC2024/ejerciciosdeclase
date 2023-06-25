@@ -1,4 +1,5 @@
-#Suma de fraccionarios
+#Suma de fraccionarios con funciones
+
 '''
 Variables de entrada: a,b,c,d,e,f
 variables de salida: m,n
@@ -112,6 +113,8 @@ try:
 
             u,v,w = int(a*(n/b)),int(c*(n/d)),int(e*(n/f)) #los nuevos numeradores
             x,y,z = n,n,n #Los nuevos denominadores
+
+            x,y,z = int(n/b),int(n/d),int(n/f) #Los nuevos denominadores
             
             m = u + v + w #Suma de numeradores
 
@@ -140,3 +143,4 @@ try:
 
 except:
     print("\nHa ocurrido error de ejecucion\n")
+
